@@ -88,7 +88,7 @@ namespace MovieFone
                 //switch for choices
                 switch (response)
                 {
-                    case "1":
+                    case "1"://List all movies
 
                         for (int i = 0; i < movieID.Count; i++)
                         {
@@ -101,12 +101,12 @@ namespace MovieFone
                             //}
                             Console.WriteLine(movieID[i]);
                             Console.WriteLine(movieName[i]);
-                            Console.WriteLine("{0} | {1}",i,movieID.Count);
+                            //Console.WriteLine("{0} | {1}",i,movieID.Count);
                             Console.WriteLine(movieGenre[i] + "\n");
                         }
-
+                        
                         break;
-                    case "2":
+                    case "2"://Add Movie to List
                         // reset flag
                         string movName = "";
 
